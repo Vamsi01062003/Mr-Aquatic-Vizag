@@ -1,31 +1,57 @@
-# AquaaBark Luxury Final
+# Mr. Aquatic Vizag 🐠
 
-Premium React/Vite public website for AquaaBark.
+A modern aquarium website showcasing freshwater fish, aquatic plants, and aquarium collections in Visakhapatnam (Vizag), Andhra Pradesh.
 
-## Brand details included
-- Hyderabad, Telangana
-- WhatsApp: +91 81216 37269
-- Instagram: @aquaa_bark_telugu
-- YouTube channel ID: UCPOhWpzVXwthBzK_IeZ0Mpw
-- 14 requested aquatic categories
-- 75K+ community positioning
+🌐 **Live Website:** https://mr-aquaticvizag.web.app/
 
-## Run
-npm install
-npm run dev
+## ✨ Features
 
-## Build
-npm run build
+- 🐟 Fish collection and category browsing
+- 🌿 Aquatic plants and aquarium collections
+- 📱 Responsive website design
+- 📩 WhatsApp contact integration
+- 📺 Social media integration
+- 🔐 Admin dashboard for inventory management
+- ☁️ Firebase Hosting
+- 🗄️ Supabase integration for database functionality
 
-## Firebase
-Create `.firebaserc` with your Firebase project ID, then:
-npm run build
-firebase deploy
+## 🛠️ Tech Stack
 
-## Supabase
-Run `supabase/schema.sql` in Supabase SQL Editor and add the public URL/key to `.env`.
+- **Frontend:** React 19
+- **Build Tool:** Vite
+- **Routing:** React Router
+- **Icons:** Lucide React
+- **Database:** Supabase
+- **Hosting:** Firebase Hosting
+- **Language:** JavaScript
+- **Styling:** CSS
 
-Never put a Supabase service-role key in frontend code.
+## 📂 Project Structure
 
-## Next production step
-Connect the fish inventory/admin dashboard to Supabase Auth + RLS + Storage. The public catalogue pages are intentionally ready for that live inventory.
+```text
+Mr-Aquatic-Vizag/
+├── public/
+│   └── home_background.png
+├── src/
+│   ├── components/
+│   │   ├── Footer.jsx
+│   │   └── Logo.jsx
+│   ├── data/
+│   │   └── site.js
+│   ├── lib/
+│   │   └── supabase.js
+│   ├── pages/
+│   │   ├── admin/
+│   │   │   └── Admin.jsx
+│   │   ├── Collection.jsx
+│   │   ├── Home.jsx
+│   │   └── Visit.jsx
+│   ├── App.jsx
+│   └── main.jsx
+├── supabase/
+│   └── schema.sql
+├── .firebaserc
+├── firebase.json
+├── index.html
+├── package.json
+└── vite.config.js
